@@ -1,0 +1,107 @@
+xbody{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.video-container iframe{
+    display: block;
+    margin: 20px auto;
+}
+
+
+.delicious{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.header{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.sushi img{
+    width: 100%;
+    height: 400px; /* adjust as needed */
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+.video-container{
+    background-color: #0b645a;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sushi{
+    position: relative;
+    width: 100%;
+}
+
+.sushi img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.banner-content h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.banner-content h2{
+    margin: 5px 0 0 0;
+    font-size: 1.5rem;
+}
