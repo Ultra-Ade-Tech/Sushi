@@ -1,107 +1,144 @@
-xbody{
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    background-color: #fcfcfc;
+    color: #333;
+    line-height: 1.6;
 }
 
-img{
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
     display: block;
     margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
-.video-container iframe{
-    display: block;
-    margin: 20px auto;
-}
-
-
-.delicious{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-
-.header{
- display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-
-.sushi img{
-    width: 100%;
-    height: 400px; /* adjust as needed */
-    object-fit: cover;
-    display: block;
-}
-
-
-
-
-.video-container{
-    background-color: #0b645a;
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-    color: white;
-}
-
-
-
-h2{
-    text-align: center;
-}
-
-
-
-.banner-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-.sushi{
+/* Hero Banner */
+.sushi {
     position: relative;
     width: 100%;
 }
 
-.sushi img{
+.sushi img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
-    display: block;
+    border-radius: 0;
 }
 
-.banner-content{
+.banner-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    width: 90%;
 }
 
-.banner-content h1{
+.banner-content h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 4rem;
+    letter-spacing: 2px;
 }
 
-.banner-content h2{
-    margin: 5px 0 0 0;
-    font-size: 1.5rem;
+.banner-content h2 {
+    margin: 10px 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* Content Layout */
+.intro-text {
+    font-size: 1.3rem;
+    margin: 40px auto;
+    max-width: 700px;
+    color: #555;
+    font-style: italic;
+}
+
+.delicious {
+    margin: 40px 0;
+}
+
+.delicious img {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.recipe-section {
+    text-align: left;
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.recipe-section h2 {
+    text-align: left;
+    color: #0b645a;
+    border-bottom: 2px solid #0b645a;
+    padding-bottom: 8px;
+}
+
+/* Lists */
+.sushi-list {
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+
+.sushi-list li {
+    margin-bottom: 12px;
+}
+
+.steps li {
+    margin-bottom: 18px;
+}
+
+.enjoy-tag {
+    text-align: center !important;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+/* Video Section */
+.video-container {
+    background-color: #0b645a;
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 50px;
+}
+
+.video-container h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-grid iframe {
+    border-radius: 8px;
+    border: none;
+    max-width: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
